@@ -1,0 +1,53 @@
+body{
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	display: -webkit-box;
+	-webkit-box-pack: vertical;
+	-webkit-box-flex: 1;
+}
+header,section,footer,aside,nav,article,hgroup{
+	display: block;
+}
+#myMovie{
+	width: 100%;
+}
+#skin{
+    width: 100%;
+	height: 100%;
+    margin: 1px auto;
+    padding: 5px;
+    background: red;
+    border: 4px solid black;
+    border-radius: 5px;	
+}
+nav{
+	margin: 5px 0px; 
+}
+#playButton{
+	float: left;
+	margin-left:20px;
+}
+
+.progress{
+	width: 1020px;
+	position: relative;
+	z-index: 1;
+	display: block;
+	}
+	
+#progressBar {
+	position: absolute;
+	width: 0;
+	height: 100%;
+	z-index; 2;
+}
+
+#label {
+	text-align: center;
+	font-weight: bold;
+	padding-left: 2px;
+	line-height: 18px;
+	color: red;
+	z-index: 3;
+}
